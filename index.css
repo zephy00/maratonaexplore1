@@ -1,0 +1,71 @@
+*{ margin: 0;
+box-sizing: border-box;
+}
+
+body{
+   background-image: url(https://img.pikbest.com/backgrounds/20190109/pure-original-beautiful-fantasy-purple-starry-background_2802639.jpg!c1024wm0);
+   color: white;
+   text-align: center;
+   font-family: sans-serif;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: scroll;
+
+   }
+
+
+
+button{
+   color: white;
+}
+
+
+#container{
+    margin-top: 10px;
+
+   width: 400px;
+   margin-right: auto;
+   margin-left: auto;
+   border: 2px rgb(255, 255, 255);
+   
+   
+}
+
+h1{ margin-bottom: 15;
+opacity: 0.9;}
+
+p{margin-bottom: 40px;
+opacity: 0.5;}
+
+input, button{
+   display: block;
+   width: 100%;
+   padding: 20px;
+   font-size: 20;
+   border-radius: 5px;
+}
+input { margin-bottom: 20px;
+
+}
+button {
+   border: none;
+   background-color: blueviolet;
+   transition: filter 0.2s ;
+   }
+   button:hover {
+      filter: brightness(1.2);
+      cursor: grabbing;
+   }
+   
+   #resposta{ margin-top: 30px;
+   
+   transition: opacity 1s;
+
+   }
+   #resposta div{
+      font-size: 16px;
+      font-weight: normal;
+      opacity: 0.9;
+      margin-bottom: 10px;
+   }
